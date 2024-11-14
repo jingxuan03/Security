@@ -1,0 +1,120 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.home {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+}
+
+.alltasks {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;
+}
+
+/* Main content styling */
+.content {
+    flex: 1; /* Take up remaining space next to the sidebar */
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    font-weight: bold;
+}
+
+th {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+.priority-low {
+    background-color: rgb(123, 255, 123); /* Low priority - Green */
+  }
+  
+  .priority-medium {
+    background-color: rgb(255, 255, 124); /* Medium priority - Yellow */
+  }
+  
+  .priority-high {
+    background-color: rgb(254, 97, 97); /* High priority - Red */
+  }
+
+  .status-low {
+    background-color: rgb(123, 255, 123); /* Low priority - Green */
+  }
+  
+  .status-medium {
+    background-color: rgb(255, 255, 124); /* Medium priority - Yellow */
+  }
+  
+  .status-high {
+    background-color: rgb(254, 97, 97); /* High priority - Red */
+  }
+
+.create-button a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white; /* Text color */
+    background-color: #b0b0b0; /* Button color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+  }
+
+  .create-button a:hover {
+    background-color: #757575; /* Button color */
+  }
+
+.all-edit-button {
+    width: 25%; /* Full width for all buttons */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Space above buttons */
+    margin-right: 10px;
+    padding: 10px;
+    color: black; 
+    background-color: rgba(241, 235, 173, 0.9);/* Text color */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.all-delete-button {
+    width: 25%; /* Full width for all buttons */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px; /* Space above buttons */
+    padding: 10px;
+    color: black; 
+    background-color: rgba(232, 162, 162, 0.9);/* Text color */
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.all-edit-button:hover {
+    background-color: rgba(220, 211, 117, 0.9);
+}
+
+.all-delete-button:hover {
+    background-color: rgba(220, 117, 117, 0.9);
+}

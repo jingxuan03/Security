@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+.home {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    width: 100vw;
+}
+
+/* Main content styling */
+.content {
+    flex: 1; /* Allows main content to fill remaining space */
+    padding: 20px;
+    background-color: #f0f0f0;
+    height: 100vh; /* Ensures the content fills the height */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 50px;
+}
+thead {
+    border: 1px solid black;
+    font-weight: bold;
+    justify-content: center;
+}
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    font-weight: bold;
+}
+
+th {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+.ongoing-header {
+  font-size: 1.5em; /* Larger font size */
+  font-weight: bold; /* Make it bold */
+  text-align: center; /* Center-align the text */
+  margin: 0; /* Remove default margin */
+  padding: 10px 0; /* Vertical padding */
+  color: black; /* Change color to blue for emphasis */
+  background-color: rgb(255, 255, 188);
+}
+
+.overdue-header {
+  font-size: 1.5em; /* Larger font size */
+  font-weight: bold; /* Make it bold */
+  text-align: center; /* Center-align the text */
+  margin: 0; /* Remove default margin */
+  padding: 10px 0; /* Vertical padding */
+  color: black; /* Change color to blue for emphasis */
+  background-color: rgb(254, 97, 97);
+}
+
+.completed-header {
+  font-size: 1.5em; /* Larger font size */
+  font-weight: bold; /* Make it bold */
+  text-align: center; /* Center-align the text */
+  border-radius: 2px;
+  margin: 0; /* Remove default margin */
+  padding: 10px 0; /* Vertical padding */
+  color: black; /* Change color to blue for emphasis */
+  background-color: rgb(181, 250, 181);
+}
+
+.priority-low {
+    background-color: rgb(123, 255, 123); /* Low priority - Green */
+  }
+  
+  .priority-medium {
+    background-color: rgb(255, 255, 124); /* Medium priority - Yellow */
+  }
+  
+  .priority-high {
+    background-color: rgb(254, 97, 97); /* High priority - Red */
+  }
+
+  .status-low {
+    background-color: rgb(123, 255, 123); /* Low priority - Green */
+  }
+  
+  .status-medium {
+    background-color: rgb(255, 255, 124); /* Medium priority - Yellow */
+  }
+  
+  .status-high {
+    background-color: rgb(254, 97, 97); /* High priority - Red */
+  }

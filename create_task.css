@@ -1,0 +1,118 @@
+.edit-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 252, 227, 0.9);
+}
+
+.create-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(227, 239, 255, 0.9);
+}
+
+.edit-task-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 252, 227, 0.9);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form groups */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px; /* Add some space above inputs */
+    font-weight: bold;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.submit-button,
+.confirm-button,
+.back-button,
+.edit-button,
+.edit-back-button {
+    width: 25%; /* Full width for all buttons */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Space above buttons */
+    padding: 10px;
+    color: white; /* Text color */
+    font-weight: bold;
+}
+
+.submit-button {
+    background-color: #67b0ff; /* Primary color for submit button */
+}
+
+.submit-button:hover {
+    background-color: #037dff; /* Darker blue on hover */
+}
+
+.edit-back-button,
+.edit-button,
+.confirm-button {
+    background-color: rgba(212, 210, 190, 0.9); /* Grey color for back and edit buttons */
+}
+
+.edit-back-button:hover,
+.edit-button:hover,
+.confirm-button:hover {
+    background-color: rgba(145, 142, 111, 0.9); /* Grey color for back and edit buttons */
+}
+
+.back-button {
+    background-color: #67b0ff; /* Grey color for back and edit buttons */
+}
+
+.back-button:hover {
+    background-color: #037dff; ; /* Darker grey on hover */
+}
+
+/* Additional styles for spacing */
+.back-button {
+    width: 25%; /* Adjust width for back button */
+    display: inline-block; /* Inline-block for spacing */
+}
+
+.edit-button {
+    width: 35%; /* Adjust width for edit button */
+    display: inline-block; /* Inline-block for spacing */
+}

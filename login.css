@@ -1,0 +1,178 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    max-width: 420px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.login-container:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 28px; /* Larger title font size */
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.login-form-group {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.register-form-group {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.username-input-container,
+.password-input-container,
+.register-form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+}
+
+label input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.login-button {
+    width: 50%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #67affd;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;  
+}
+
+.reset-button {
+    width: 50%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #83909e;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;  
+}
+
+.back-button {
+    width: 30%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #83909e;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    text-decoration: none;
+}
+
+.login-button:hover {
+    background-color: #416d9c;
+}
+
+.reset-button:hover {
+    background-color: #4d545c;
+}
+
+.back-button:hover {
+    background-color: 4d545c;
+}
+
+.register-link {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Add some styling for the password strength bar */
+.strength-bar {
+    height: 10px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.strength {
+    height: 100%;
+    width: 0%;
+    border-radius: 5px;
+}
+.weak { background-color: #ff4c4c; }
+.medium { background-color: #ffe96b; }
+.pstrong {background-color: #c5ff8f; }
+.strong { background-color: #4CAF50; }

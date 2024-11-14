@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: transparent;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Ensure the content is centered vertically */
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(128, 128, 128, 0.473);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; /* Set a max width to prevent it from being too wide */
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.137);
+    color: black;
+    font-size: 1.5em;
+    padding: 20px 50px;
+    margin: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.3s, transform 0.3s;
+    width: 250px; /* Ensure buttons have the same width */
+    height: 80px; /* Increase height */
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(1);
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.icon {
+    width: 30px; /* Adjust icon size */
+    height: 30px;
+    margin-right: 15px; /* Space between icon and text */
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+footer {
+    margin-top: auto;
+}
