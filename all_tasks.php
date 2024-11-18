@@ -97,7 +97,7 @@ if (isset($_GET['delete'])) {
     
     if ($stmt->execute()) {
         // Redirect back to the tasks page after deletion
-        header("Location: admin.php");  
+        header("Location: all_tasks.php");  
         exit;
     } else {
         echo "Error deleting task: " . $stmt->error;
